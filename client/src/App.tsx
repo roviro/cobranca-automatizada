@@ -143,6 +143,21 @@ export function App() {
   return (
     <div className="min-h-screen bg-[#080c14] text-slate-100 flex flex-col font-sans">
       
+      {/* Barra de Demonstração Interativa */}
+      <div className="bg-gradient-to-r from-cyan-950/90 via-slate-900 to-indigo-950/90 text-slate-300 text-xs py-2 px-4 border-b border-cyan-500/20 flex items-center justify-between z-50">
+        <div className="flex items-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span className="font-bold text-white text-xs">Modo Demonstração Interativo</span>
+          <span className="hidden sm:inline text-slate-400">• Emissão, réguas e envios ativos</span>
+        </div>
+        <a
+          href="https://roviro.com.br#solucoes"
+          className="text-cyan-400 hover:text-cyan-300 font-semibold text-xs flex items-center gap-1.5 transition"
+        >
+          <span>← Voltar ao Portfólio Roviro</span>
+        </a>
+      </div>
+
       {/* Navbar */}
       <Navbar
         currentTab={currentTab}
