@@ -1,0 +1,11 @@
+{
+  "name": "cobranca-automatizada-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && bun run src/index.ts",
+    "dev:client": "cd client && bun run dev",
+    "dev": "./iniciar.sh",
+    "build:client": "cd client && bun run build"
+  }
+}
